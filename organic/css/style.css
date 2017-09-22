@@ -27,8 +27,13 @@ body {
 }
 
 .main-nav ul {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	flex-direction: row;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
 	margin: 0;
 	margin-bottom: 150px;
 	padding: 0;
@@ -77,9 +82,16 @@ body {
 }
 
 .home {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
 	margin-bottom: 130px;
 }
 
@@ -148,14 +160,22 @@ body {
 }
 
 .flex-container-footer {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
 }
 
 .contacts {
 	width: 130px;
-	flex-shrink: 0;
+	-ms-flex-negative: 0;
+	    flex-shrink: 0;
 }
 
 .contacts p {
@@ -172,10 +192,18 @@ body {
 }
 
 .footer-nav {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	flex-direction: row;
-	flex-shrink: 0;
-	justify-content: space-between;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	-ms-flex-negative: 0;
+	    flex-shrink: 0;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
 	width: 650px;
 	margin-right: 10px;
 }
@@ -210,6 +238,3 @@ body {
 .footer-nav a:hover {
 	text-decoration: underline;
 }
-
-
-

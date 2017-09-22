@@ -37,10 +37,19 @@ a {
 }
 
 .main-header .main-navigation {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	align-items: center;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
 	padding: 30px 0;
 	margin-bottom: 90px;
 
@@ -55,9 +64,16 @@ a {
 }
 
 .navigation-list {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
 	width: 475px;
 	margin: 0;
 	margin-left: auto;
@@ -111,9 +127,16 @@ a {
 }
 
 .content-block {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
 	padding: 80px 0;
 
 	cursor: default;
@@ -202,10 +225,18 @@ a {
 }
 
 .my-works .projects-list {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	flex-wrap: wrap;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	-ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
 	margin: 0;
 	padding: 0;
 
@@ -213,11 +244,13 @@ a {
 }
 
 .my-works .project-block {
-	flex-grow: 1;
+	-webkit-box-flex: 1;
+	    -ms-flex-positive: 1;
+	        flex-grow: 1;
 	position: relative;
 	display: block;
 	width: 200px;
-	min-height: 200px; /**/
+	min-height: 200px;
 	margin-right: 10px;
 	margin-bottom: 10px;
 
@@ -229,7 +262,8 @@ a {
 }
 
 .project-block .hover-block {
-	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -250,7 +284,11 @@ a {
 	width: 120px;
 	height: 120px;
 
-	transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+
+	    -ms-transform: translate(-50%, -50%);
+
+	        transform: translate(-50%, -50%);
 	opacity: 0.5;
 }
 
@@ -271,8 +309,13 @@ a {
 }
 
 .contacts .content-block-right {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	flex-direction: row;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
 }
 
 .contacts .social-content a {
@@ -281,7 +324,8 @@ a {
 
 	white-space: nowrap;
 	overflow: hidden;
-	text-overflow: ellipsis;
+	-o-text-overflow: ellipsis;
+	   text-overflow: ellipsis;
 	color: #696969;
 }
 
