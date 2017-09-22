@@ -76,7 +76,8 @@ a {
 	color: #55c5f2;
 }
 
-.navigation-item a:active {
+.navigation-item a:active,
+.navigation-item a.active {
 	color: #179fd6;
 }
 
