@@ -29,11 +29,11 @@ a {
 }
 
 .main-header {
-	background-color: #eeeeee; /*!!!*/
-	background-image: url("../img/header-background.jpg");
+	background-color: #5F9EA0; /*!!!*/
+	/*background-image: url("../img/header-background.jpg");
 	background-position: center -20px;
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: cover;*/
 }
 
 .main-header .main-navigation {
