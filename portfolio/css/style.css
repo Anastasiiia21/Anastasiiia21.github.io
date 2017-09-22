@@ -190,6 +190,23 @@ a {
 	background-color: #f1f0ef;
 }
 
+.experience .advantages-list {
+	margin: 0;
+	padding: 0;
+	padding-left: 13px; 
+
+	list-style-type: square;
+}
+
+.advantage-item {
+	padding-left: 10px;
+	margin-bottom: 10px;
+}
+
+.experience a{
+	color: #55c5f2;
+}
+
 .my-works .projects-list {
 	display: flex;
 	flex-direction: row;
