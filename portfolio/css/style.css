@@ -8,7 +8,7 @@ body {
     font-weight: 400;
     font-size: 14px;
     line-height: 21px;
-    color: #696969;
+    color: #000000;
 
 	background-color: #ffffff;
 } 
@@ -89,11 +89,11 @@ a {
 }
 
 .navigation-item a:not(.active):hover {
-	color: #55c5f2;
+	color: #488d84;
 }
 
 .navigation-item a:active {
-	color: #179fd6;
+	color: #376f68;
 }
 
 .name {
@@ -184,12 +184,12 @@ a {
 }
 
 .content-block-left .arrow:hover::before {
-	background-image: url("../img/arrow-blue.svg");
-	opacity: 0.5;
+	background-image: url("../img/arrow-green.svg");
+	opacity: 0.7;
 }
 
 .content-block-left .arrow:active::before {
-	background-image: url("../img/arrow-blue.svg");
+	background-image: url("../img/arrow-green.svg");
 	opacity: 1;
 }
 
@@ -204,24 +204,24 @@ a {
 }
 
 .experience {
-	background-color: #f1f0ef;
+	color: #ffffff;
+
+	background-color: #a9a9a9;
 }
 
 .experience .advantages-list {
 	margin: 0;
 	padding: 0;
-	padding-left: 13px; 
 
-	list-style-type: square;
+	list-style-type: none;
 }
 
 .advantage-item {
-	padding-left: 10px;
-	margin-bottom: 10px;
+	margin-bottom: 15px;
 }
 
-.experience a{
-	color: #55c5f2;
+.experience a {
+	color: #a2f2e8;
 }
 
 .my-works .projects-list {
@@ -305,7 +305,9 @@ a {
 }
 
 .contacts {
-	background-color: #f1f0ef;
+	color: #ffffff;
+
+	background-color: #a9a9a9;
 }
 
 .contacts .content-block-right {
@@ -326,7 +328,7 @@ a {
 	overflow: hidden;
 	-o-text-overflow: ellipsis;
 	   text-overflow: ellipsis;
-	color: #696969;
+	color: #ffffff;
 }
 
 .social-content a:hover {
@@ -358,6 +360,6 @@ a {
 
 .social-name li {
 	font-weight: 700;
-	color: #515151;
+	color: #000000;
 }
 
