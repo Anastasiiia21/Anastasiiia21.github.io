@@ -224,6 +224,14 @@ a {
 	color: #a2f2e8;
 }
 
+.experience a:hover {
+	color: #00dbbf;
+}
+
+.experience a:active {
+	color: #01c0a7;
+}
+
 .my-works .projects-list {
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -332,11 +340,11 @@ a {
 }
 
 .social-content a:hover {
-	color: #55c5f2;
+	color: #a2f2e8;
 }
 
 .social-content a:active {
-	color: #179fd6;
+	color: #52ffe9;
 }
 
 .social-name,
