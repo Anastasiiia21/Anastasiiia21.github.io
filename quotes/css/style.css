@@ -1,0 +1,191 @@
+body,
+html {
+	min-width: 1600px;
+	margin: 0;
+	padding: 0;
+
+	font-family: Raleway, Arial, sans-serif;
+	font-weight: 500;
+	font-size: : 20px;
+	line-height: 30px;
+	color: #000000;
+
+	background-color: #ffffff;
+}
+
+.container {
+	width: 1400px;
+	margin: 0 auto;
+	padding: 0 100px;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+	text-decoration: none;
+}
+
+.main-header {
+	position: relative;
+
+	background-color: #a3aab6;
+	background-image: url("../img/header-background.jpg");
+	background-repeat: no-repeat;
+	background-position: top center;
+	/*background-size: cover;*/
+}
+
+.header-top {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-bottom: 230px;
+}
+
+.logo {
+	display: block;
+	padding: 17px 19px;
+	margin-top: 50px;
+	margin-left: 100px;
+
+	font-family: Montserrat, Arial, sans-serif;
+	font-weight: 700;
+	font-size: 30px;
+	line-height: 45px;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+	color: #ffffff;
+
+	background-color: #000000;
+}
+
+.menu-open {
+	display: inline-block;
+	height: 40px;
+	margin-top: 58px;
+	margin-right: 100px;
+	padding: 0;
+
+	font-family: Montserrat, Arial, sans-serif;
+	font-weight: 700;
+	font-size: 15px;
+	line-height: 23px;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	color: #ffffff;
+	vertical-align: top;
+
+	border: none;
+	border-top: 4px solid #ffffff;
+	border-bottom: 4px solid #ffffff;
+	background-color: transparent;
+
+}
+
+.header-bottom {
+	padding-left: 700px;
+	border-bottom: 1px solid transparent;
+}
+
+.header-leading {
+	display: block;
+	max-width: 718px;
+	margin-bottom: -70px;
+
+	font-family: Raleway, Arial, sans-serif;
+	font-weight: 100;
+	font-size: 220px;
+	line-height: 220px;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	color: #ffffff;
+}
+
+.header-leading + p {
+	margin-bottom: 360px;
+
+	font-family: Raleway, Arial, sans-serif;
+	font-weight: 700;
+	font-size: 64px;
+	line-height: 64px;
+	letter-spacing: 0.1em;
+	text-transform: lowercase;
+	color: #ffffff;
+}
+
+.hover-menu {
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+
+	background-color: #14171a;
+	opacity: 0.96;
+}
+
+.navigation-list {
+	margin: 0;
+	padding: 0;
+	margin-top: 180px;
+	margin-left: 200px;
+	margin-bottom: 230px;
+
+	list-style: none;
+}
+
+.navigation-list a {
+	font-family: Montserrat, Arial, sans-serif;
+	font-weight: 700;
+	font-size: 50px;
+	line-height: 80px;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+	color: #626262;
+}
+
+.navigation-list a:hover {
+	color: #ffffff;
+	text-decoration: underline;
+}
+
+.navigation-list a:active {
+	color: #ffffff;
+	opacity: 0.7;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
