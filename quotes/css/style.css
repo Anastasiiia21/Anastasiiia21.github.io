@@ -46,7 +46,7 @@ a {
 	background-image: url("../img/header-background.jpg");
 	background-repeat: no-repeat;
 	background-position: top center;
-	/*background-size: cover;*/
+	background-size: cover;
 }
 
 .header-top {
@@ -127,7 +127,7 @@ a {
 	color: #ffffff;
 }
 
-.hover-menu {
+.modal-menu {
 	display: none;
 	position: absolute;
 	top: 0;
