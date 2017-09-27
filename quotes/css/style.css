@@ -97,13 +97,13 @@ a {
 }
 
 .header-bottom {
-	padding-left: 700px;
+	padding-left: 600px;
 	border-bottom: 1px solid transparent;
 }
 
 .header-leading {
 	display: block;
-	max-width: 718px;
+	max-width: 725px;
 	margin-bottom: -70px;
 
 	font-family: Raleway, Arial, sans-serif;
