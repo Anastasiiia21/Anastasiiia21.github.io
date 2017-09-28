@@ -12,6 +12,7 @@ html {
 	color: #000000;
 
 	background-color: #ffffff;
+	opacity: 0.9;
 }
 
 .container {
@@ -38,6 +39,30 @@ img {
 
 a {
 	text-decoration: none;
+}
+
+.btn {
+    display: inline-block;
+    padding: 15px 36px;
+ 
+	font-family: Montserrat, Arial, sans-serif;
+	font-weight: 700;
+	color: #000000;
+	text-transform: uppercase;
+	letter-spacing: 0.15em;
+    vertical-align: top;
+    text-transform: uppercase;
+  
+    border: 2px solid #000000;
+    border-radius: 2px;
+}
+
+.btn:hover {
+	opacity: 0.5;
+}
+
+.btn:active {
+	opacity: 0.8;
 }
 
 .main-header {
@@ -107,7 +132,6 @@ a {
 	display: block;
 	margin-bottom: -70px;
 
-	font-family: Raleway, Arial, sans-serif;
 	font-weight: 100;
 	font-size: 220px;
 	line-height: 220px;
@@ -120,7 +144,6 @@ a {
 	max-width: 730px;
 	margin-bottom: 360px;
 
-	font-family: Raleway, Arial, sans-serif;
 	font-weight: 700;
 	font-size: 64px;
 	line-height: 64px;
@@ -170,20 +193,19 @@ a {
 	opacity: 0.7;
 }
 
-.about-leading{
+.about .main-title {
 	display: block;
 	max-width: 560px;
 	margin: 0 auto;
+	padding: 0;
 
-	font-family: Raleway, Arial, sans-serif;
 	font-weight: 100;
 	font-size: 60px;
 	line-height: 75px;
-	color: #000000;
 	text-align: center;
 }
 
-.about-leading span {
+.about .main-title span {
 	font-weight: 700;
 }
 
@@ -220,6 +242,8 @@ a {
 }
 
 .quotes {
+	margin-bottom: 125px;
+
 	background-color: #ffddd5;
 }
 
@@ -241,19 +265,15 @@ a {
 	margin: 0;
 	margin-bottom: 40px;
 
-	font-family: Raleway, Arial, sans-serif;
 	font-weight: 700;
 	font-size: 36px;
 	line-height: 48px;
-	color: #000000;
 }
 
 .quotes-left cite {
-	font-family: Raleway, Arial, sans-serif;
 	font-weight: 100;
 	font-size: 36px;
 	line-height: 48px;
-	color: #000000;
 	font-style: normal;
 }
 
@@ -265,6 +285,86 @@ a {
 	background-image: url("../img/quotes-picture.jpg");
 	background-repeat: no-repeat;
 	background-position: top center;
+}
+
+.reasons {
+	position: relative;
+}
+
+.reasons h2 {
+	position: relative;
+	margin: 0;
+	margin-bottom: 130px;
+	padding: 0;
+
+	font-weight: 700;
+	font-size: 60px;
+	line-height: 60px;
+}
+
+.reasons h2::after {
+	position: absolute;
+	bottom: -40px;
+	left: 0;
+	content: "";
+	width: 80px;
+	height: 2px;
+
+	background-image: linear-gradient(to right, #000000, #000000);
+	background-position: 0 0;
+	background-repeat: no-repeat;
+}
+
+.reasons-list {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin: 0;
+	margin-bottom: 220px;
+	padding: 0;
+	
+	list-style: none;
+}
+
+.reasons-item {
+	flex-shrink: 0;
+	width: 597px;
+	padding: 50px;
+
+	border: 1px solid #eae9e7;
+}
+
+.reasons-title {
+	margin: 0;
+	margin-bottom: 30px;
+	padding: 0;
+
+	font-weight: 700;
+	font-size: 30px;
+	line-height: 48px;
+	text-transform: uppercase;
+}
+
+.reasons-item blockquote {
+	max-width: 550px;
+	margin: 0;
+	margin-bottom: 20px;
+	padding: 0;
+
+	font-weight: 400;
+}
+
+.reasons-item cite {
+	font-weight: 400;
+	font-style: italic;
+}
+
+.reasons .btn {
+	position: absolute;
+	bottom: -110px;
+	left: 50%;
+
+	transform: translateX(-50%);
 }
 
 .main-quote {
@@ -281,7 +381,6 @@ a {
 	max-width: 830px;
 	margin: 0 auto;
 
-	font-family: Raleway, Arial, sans-serif;
 	font-weight: 700;
 	font-size: 60px;
 	line-height: 90px;
@@ -293,7 +392,6 @@ a {
 	max-width: 340px
 	margin: 0 auto;
 
-	font-family: Raleway, Arial, sans-serif;
 	font-weight: 100;
 	font-size: 20px;
 	line-height: 30px;
@@ -301,17 +399,18 @@ a {
 	text-align: center;
 }
 
-.main-quote cite {
-	font-style: normal;
+.main-quote a {
+	color: #ffffff;
 	text-decoration: underline;
 }
 
+.main-quote a:hover {
+	opacity: 0.5;
+}
 
-
-
-
-
-
+.main-quote a:active {
+	opacity: 0.8;
+}
 
 
 
