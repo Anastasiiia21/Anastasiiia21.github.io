@@ -42,10 +42,6 @@ a {
 	cursor: pointer;
 }
 
-button {
-	cursor: pointer;
-}
-
 .btn {
     display: inline-block;
     padding: 15px 36px;
@@ -61,6 +57,7 @@ button {
     border: 3px solid #000000;
     border-radius: 2px;
     background-color: transparent;
+    cursor: pointer;
 }
 
 .btn:hover {
@@ -133,6 +130,7 @@ button {
 	border-top: 4px solid #ffffff;
 	border-bottom: 4px solid #ffffff;
 	background-color: transparent;
+	cursor: pointer;
 }
 
 .menu-open:hover {
@@ -203,6 +201,7 @@ button {
 
 	border: none;
 	background-color: transparent;	
+	cursor: pointer;
 }
 
 .menu-close::before {
