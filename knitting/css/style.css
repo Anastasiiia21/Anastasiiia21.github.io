@@ -11,6 +11,9 @@ body {
     color: #000000;
   
     background-color: #696969;
+}
+
+.main-header {
 	background-image: url("../img/background-2.jpg");
 	background-repeat: repeat-y;
 	background-position: top center;
